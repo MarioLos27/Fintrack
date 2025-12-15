@@ -13,5 +13,7 @@
       "name": "Web"
     }
   ],
-  "settings": {}
+  "settings": {
+    "java.compile.nullAnalysis.mode": "automatic"
+  }
 }
