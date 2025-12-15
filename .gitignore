@@ -1,0 +1,26 @@
+# --- SISTEMA OPERATIVO Y VS CODE ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# --- BACKEND (Java/Spring) ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.properties
+backend/mvnw
+backend/mvnw.cmd
+backend/.settings/
+backend/bin/
+*.class
+
+# --- WEB (Node/React) ---
+web/node_modules/
+web/dist/
+web/.env.local
+
+# --- MOBILE (Flutter) ---
+mobile/build/
+mobile/.dart_tool/
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.pub-cache/
