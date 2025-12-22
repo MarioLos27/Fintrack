@@ -24,3 +24,14 @@ mobile/.dart_tool/
 mobile/.flutter-plugins
 mobile/.flutter-plugins-dependencies
 mobile/.pub-cache/
+
+# Ignorar archivos de configuración de Flutter para las estadísticas
+mobile/windows/* linguist-vendored
+mobile/linux/* linguist-vendored
+mobile/macos/* linguist-vendored
+mobile/ios/* linguist-vendored
+mobile/android/* linguist-vendored
+mobile/web/* linguist-vendored
+
+# (Opcional) Si subiste node_modules por error
+web/node_modules/* linguist-vendored
