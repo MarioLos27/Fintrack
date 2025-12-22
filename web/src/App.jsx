@@ -43,7 +43,7 @@ function App() {
 
   return (
     <div style={{ padding: '20px', fontFamily: 'Arial', maxWidth: '600px', margin: '0 auto' }}>
-      <h1>💸 FinTrack Web</h1>
+      <h1>FinTrack Web</h1>
 
       {/* FORMULARIO */}
       <div style={{ background: '#f0f0f0', padding: '15px', borderRadius: '8px', marginBottom: '20px' }}>

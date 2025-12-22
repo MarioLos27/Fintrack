@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'FinTrack Mobile',
-      debugShowCheckedModeBanner: false, // Quita la etiqueta 'Debug' fea
+      debugShowCheckedModeBanner: false, 
       theme: ThemeData(primarySwatch: Colors.indigo),
       home: const GastosScreen(),
     );
@@ -78,7 +78,7 @@ class _GastosScreenState extends State<GastosScreen> {
     }
   }
 
-  // Mostrar ventanita flotante (Dialog)
+  // Dialog
   void _mostrarFormulario() {
     final conceptoController = TextEditingController();
     final cantidadController = TextEditingController();
@@ -92,7 +92,7 @@ class _GastosScreenState extends State<GastosScreen> {
           children: [
             TextField(
               controller: conceptoController,
-              decoration: const InputDecoration(labelText: 'Concepto (ej: Taxi)'),
+              decoration: const InputDecoration(labelText: 'Concepto'),
             ),
             TextField(
               controller: cantidadController,
